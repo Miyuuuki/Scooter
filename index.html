@@ -1,0 +1,329 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <title>Scoot Scooter PH</title>
+</head>
+<body class="h-screen bg-yellow-200">
+  <nav id="header" class="fixed w-screen h-14 z-30 top-0 bg-gradient-to-r from-teal-200 to-blue-500">
+    <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 border-b-4 border-blue-300">
+      <div class="pl-4 flex items-center mr-10 font-extrabold text-blue-900">
+        <b>SCOOT SCOOTER</b>
+      </div>
+      <div class="flex flex-initial bg-transparent text-white hover:text-gray-200 py-2 px-2 rounded">
+        <div class="font-extrabold">
+        <a href="#">HOME</a>
+        </div>
+      </div>
+        <div class="flex flex-initial bg-transparent text-white hover:text-gray-200 py-2 px-2 rounded">
+        <div class="font-extrabold">
+        <a href="#">MOTORCYCLES</a>
+        </div>
+      </div>
+      <div class="flex flex-initial bg-transparent text-white hover:text-gray-200 py-2 px-2 rounded">
+        <div class="font-extrabold">
+        <a href="#">CARS</a>
+        </div>
+      </div>
+      <div class="flex flex-initial bg-transparent text-white hover:text-gray-200 py-2 px-2 rounded">
+        <div class="font-extrabold">
+          <a href="#">OTHERS</a>
+        </div>
+      </div>
+      <div class="dropdown mr-10" style="float:right;">
+        <svg class="menu h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+        </button>
+          <div class="dropdown-content no-underline hover:underline rounded">
+            <img src="images\profile.png" alt="profile pic" class="w-14 h-14 p-2 float-left">
+            <div class="py-5">Login/Signup</div>
+              <a href="#">Settings</a>
+              <a href="#">Help</a>
+            </div>
+      </div>
+    </div>
+  </nav>
+  <!--Start-->
+    <div class="relative">
+      <img class="w-full" src="images\100.png" alt="dummy-image">
+      <button class="absolute top-0 bg-blue-500 text-white p-2 rounded hover:bg-blue-800">Button</button>
+    </div>
+    <div class="p-10">
+      <!--Scooter Details-->
+      <div class=" w-full lg:max-w-full lg:flex overflow-hidden rounded-lg shadow-lg">
+        <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1519750292352-c9fc17322ed7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80/anastasiia-tarasova-wlQDgb79UAk-unsplash.png')" title="Mountain">
+        </div>
+        <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white p-4 flex flex-col justify-between leading-normal">
+          <div class="mb-8"><br>
+            <p class="text-gray-700 text-base">First developed in the early 1900s for US military use. This continued to develop in Europe and United States. Powered by a small engine, with displacement ranging from 50cc to 250cc that's attached to the rear axle or under the seat. Usually operates with 10-inch wheels uses an electrical charging system. </p><br>
+            <p class="text-gray-700 text-base">With a large engine, some may consider it a motorcycle. But what scooters have is a step-through frame and a platform. This emphasizes comfort for the rider. Scooters are known for being more affordable and easier to use. The wheels of a motor scooter measure from 8 - 12 inches in diameter, making an easy way for transportation, as well as having a lower cost of maintenance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Why Scooters?-->
+    <br>
+    <div class="select-none text-center text-black text-3xl font-bold">Why Use Scooters</div>
+    <div class="container mx-auto">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 px-10">
+        <!--Extra Storage-->
+        <div class="select-none flex flex-wrap lg:-mx-4">
+          <div class="w-50 lg:my-4 lg:px-4">
+              <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                <div class="flex items-center leading-tight pt-4 pl-4">
+                  <h1 class="text-lg font-semibold">Extra Storage</h1>
+                </div>
+                <div class="flex items-center justify-between leading-none p-2 md:p-4">
+                  <p class="ml-2 text-base pb-4">Seats of scooters can be opened, showing a storage space that can hold your items. This also locks when the seat is put back in place.</p>
+                </div> 
+              </div>
+          </div>   
+        </div>
+        <!--Fuel Effeciency-->
+        <div class="select-none flex flex-wrap lg:-mx-4">
+          <div class="w-50 lg:my-4 lg:px-4">
+              <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                <div class="flex items-center leading-tight pt-4 pl-4">
+                  <h1 class="text-lg font-semibold">Fuel Efficiency</h1>
+                </div>
+                <div class="flex items-center justify-between leading-none p-2 md:p-4">
+                  <p class="ml-2 text-base pb-4">Uses lightweight frames and small engines that helps in saving fuel. Most scooters can go from 60mhp - 75mph.</p>
+                </div> 
+              </div>
+          </div>   
+        </div>
+      <!--Automatic Transmission-->
+        <div class="select-none flex flex-wrap lg:-mx-4">
+          <div class="w-50 lg:my-4 lg:px-4">
+            <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+              <div class="flex items-center leading-tight pt-4 pl-4">
+                <h1 class="text-lg font-semibold">Automatic Transmission</h1>
+              </div>
+              <div class="flex items-center justify-between leading-none p-2 md:p-4">
+                <p class="ml-2 text-base pb-4">Since there is no manual clutch on scooters, learning gear shifting may be hard for new riders. It makes motorcycling better as it allows you to focus on the ride instead of shifting and clutch control.</p>
+              </div> 
+            </div>
+          </div>   
+        </div>
+      <!--Usability-->
+        <div class="select-none flex flex-wrap lg:-mx-4">
+          <div class="w-50 lg:my-4 lg:px-4">
+              <div class="overflow-hidden rounded-lg shadow-lg bg-white">
+                <div class="flex items-center leading-tight pt-4 pl-4">
+                  <h1 class="text-lg font-semibold">Usability</h1>
+                </div>
+                <div class="flex items-center justify-between leading-none p-2 md:p-4">
+                  <p class="ml-2 text-base pb-4">Scooters are easy to use and best for short-distance rides. It's comfortable and can be used for a family. The lower speed, smaller wheels, and managaeble weight makes it safe to use.</p>
+                </div> 
+              </div>
+          </div>   
+        </div>
+      </div>
+    </div>
+    <!--End (Why Scooters?)-->
+    </div>
+    <br><br>
+    <!--Difference of Scooter and Moped-->
+    <div class="select-none text-center text-black">
+      <div class="text-3xl font-bold">Isn't a Scooter and Moped the same thing?</div>
+      <div class="text-lg font-italics">Here's a few differences between them</div>
+    </div>
+    <br><br>  
+    <div align="center">
+    <table class="border-collapse border-2 border-yellow-600">
+      <thead>
+        <tr class="bg-white">
+          <th class="border-b border-gray-400 p-4">Features</th>
+          <th class="border-b border-gray-400 p-4">Scooter</th>
+          <th class="border-b border-gray-400 p-4">Moped</th>
+        </tr>
+      </thead>
+      <tbody class="bg-gray-100 bg-opacity-50">
+        <tr>
+          <td class="border-r border-gray-400 p-4">Description</td>
+          <td class="border-t border-gray-400 p-4">Vehicle that has a step-through chassis and a platform to rest your foot</td>
+          <td class="border-t border-l border-gray-400 p-4">Vehicle with pedals that the rider can use to propel the moped</td>
+        </tr>
+        <tr>
+          <td class="border-r border-gray-400 p-4">Speed</td>
+          <td class="border-r border-gray-400 p-4">Depending on the engine size</td>
+          <td class="border-l border-gray-400k p-4">28mph</td>
+        </tr>
+        <tr>
+          <td class="border-r border-gray-400 p-4">Engine</td>
+          <td class="border-r border-gray-400 p-4">50cc - 250cc</td>
+          <td class="border-l border-gray-400 p-4">50cc</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <div>
+    </div>
+    <br><br><br>
+    <div class="border-t-2 border-yellow-500"></div>
+    <!--Scooter Gallery-->
+    <div class="bg-blue-100 w-screen">
+    <div class="select-none text-center text-3xl font-bold pt-8 text-blue-900 ">Scooter Gallery</div>
+    <div class="min-h-screen flex items-center justify-center">
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-10">
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\scooter-g927e954a8_1920.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://pixabay.com/photos/scooter-yellow-vehicle-retro-4025114/" target="_blank">TaniAviles</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\road-gd8b3864b6_1920.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://pixabay.com/photos/road-travel-city-architecture-3177240/" target="_blank">NakNakNak</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\alley-g565208a96_1920.jpg" alt="scooter" align="right" width="700">
+              <td class="inline-block align-middle border-r border-black p-4">By <a href="https://unsplash.com/photos/nX6K8c3fxzs" target="_blank">Andrew Haimerl</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\chanakya-vardhan-ZkkGJJlZRVE-unsplash.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://unsplash.com/photos/ZkkGJJlZRVE" target="_blank">Chanakya Vardhan</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\derrick-della-dvdJDfNBYjQ-unsplash.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://unsplash.com/photos/dvdJDfNBYjQ" target="_blank">Derrick Della</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900 text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\jan-antonin-kolar-xpmWMxQRHvQ-unsplash.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://unsplash.com/photos/xpmWMxQRHvQ" target="_blank">Jan Antonin Kolar</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900  text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\koushik-chowdavarapu-x7s6I_sz2gk-unsplash.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://unsplash.com/photos/x7s6I_sz2gk" target="_blank">Koushik Chowdavarapu</a></td>
+            </td>
+          </div>
+          <div class="bg-white text-blue-900  text-base font-mono text-center p-2 rounded-lg">
+            <td class="p-4">
+              <img class="select-none rounded w-96" src="images\alexander-schimmeck-qv3_rohJRTU-unsplash.jpg" alt="scooter" align="right" width="700">
+              <td class="p-4">By <a href="https://unsplash.com/photos/qv3_rohJRTU " target="_blank">Alexander Schimmeck</a></td>
+            </td>
+          </div>
+      </div>
+    </div>
+    </div>
+</body>
+<footer class="text-center text-white bg-gradient-to-r from-teal-200 to-blue-500">
+  <div class="container px-6 pt-6">
+    <div><!--newspaper signup-->
+      <form action="">
+        <div class="grid md:grid-cols-3 gird-cols-1 gap-4 justify-center items-center">
+          <div class="md:ml-auto md:mb-6">
+            <p class="">
+              <strong>Sign up for our newsletter!</strong>
+            </p>
+          </div>
+          <div class="md:mb-6">
+            <input
+              type="text"
+              class="w-full px-3 py-1.5 text-base font-normal text-blue-800
+                bg-white bg-clip-padding border border-solid rounded transition"
+              id="Email"placeholder="Email address"/>
+          </div>
+          <!--subcrib button for newsletter-->
+          <div class="md:mr-auto mb-6">
+            <button type="submit" class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!--Scources with HyperLInks-->
+    <div class="mb-6 font-bold">
+      <p>Sources Used Below</p>
+    </div>
+    <!--first sources-->
+    <div class="grid lg:grid-cols-4 md:grid-cols-2">
+      <div class="mb-6">
+        <ul class="list-none mb-0">
+          <li>
+            <a href="https://unsplash.com/" class="text-white">Unsplash</a>
+          </li>
+          <li>
+            <a href="https://www.wise-geek.com/what-is-a-motor-scooter.htm" class="text-white">WiseGeek</a>
+          </li>
+          <li>
+            <a href="https://tailwindcss.com/" class="text-white">Tailwind CSS</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--second sources-->
+      <div class="mb-6">
+        <ul class="list-none mb-0">
+          <li>
+            <a href="https://pixabay.com/" class="text-white">Pixabay</a>
+          </li>
+          <li>
+            <a href="https://www.motorcyclelegalfoundation.com/scooters-mopeds-and-go-peds/" class="text-white">Motorcycle Legal Foundation</a>
+          </li>
+          <li>
+            <a href="https://www.ride.vision/blog/13-motorcycle-types-and-how-to-choose-one/" class="text-white">Ride Vision</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--third sources-->
+      <div class="mb-6">
+        <ul class="list-none mb-0">
+          <li>
+            <a href="https://ionic.io/ionicons" class="text-white">Ionicons</a>
+          </li>
+          <li>
+            <a href="https://www.statefarm.com/simple-insights/auto-and-vehicles/the-differences-between-moped-and-scooter#:~:text=A%20scooter%20has%20the%20same,get%20fewer%20than%2060%20mpg." class="text-white">State Farm</a>
+          </li>
+          <li>
+            <a href="https://www.bestbeginnermotorcycles.com/7-reasons-you-should-ride-a-scooter-instead-of-a-motorcycle/" class="text-white">Best Begginer Motorcycles</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Link 4</a>
+          </li>
+        </ul>
+      </div>
+      <!--forth sources-->
+      <div class="mb-6">
+        <ul class="list-none mb-0">
+          <li>
+            <a href="https://fonts.google.com/" class="text-white">Google Fonts</a>
+          </li>
+          <li>
+            <a href="https://www.motorcycle.com/features/scooter-versus-motorcycle-pros-cons.html" class="text-white">Motorcycle</a>
+          </li>
+          <li>
+            <a href="https://www.reliancegeneral.co.in/Insurance/Knowledge-Center/Blogs/Why-you-Should-Choose-a-Scooter-over-a-Motorcycle.aspx" class="text-white">Reliance</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--copyright-->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright: For Educational Purposes Only
+  </div>
+</footer> 
+</html>
